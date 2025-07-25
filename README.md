@@ -5,11 +5,11 @@ This project demostrates a comprehensive datawarehouse and analytics solution, f
 ## 📄Projects Requirement 
 ****Building the Data Warehouse****
 
-**Objective**-
+**Objective -**
 
 Develop a modern warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision making
 
-**Specification**-
+**Specification -**-
 
 1. **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files
 2. **Data Quality**: Cleanse and resolve data quality issues before analysis
