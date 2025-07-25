@@ -6,6 +6,7 @@ This project demostrates a comprehensive datawarehouse and analytics solution, f
 **Building the Data Warehouse**
 
 **Objective**
+
 Develop a modern warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision making
 
 **Specification**
