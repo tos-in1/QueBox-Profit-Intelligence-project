@@ -5,6 +5,7 @@ Create Database and Schemas
 The purpose of this script is to create a new database called 'datawarehouse' after checking if it already exists.
 Ifthe database exists, it is dropped and recreated. Additionally, the script sets up three schemas within the 
 database. They are: bronze, silver and gold.
+*/
 
 
 USE master;
