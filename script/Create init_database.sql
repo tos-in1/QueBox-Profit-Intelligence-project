@@ -1,10 +1,14 @@
 /*
-============================================================================
+==================================================================================================================
 Create Database and Schemas
-============================================================================
-The purpose of this script is to create a new database called 'datawarehouse' after checking if it already exists.
-Ifthe database exists, it is dropped and recreated. Additionally, the script sets up three schemas within the 
-database. They are: bronze, silver and gold.
+==================================================================================================================
+Script Purpose: 
+	The purpose of this script is to create a new database called 'datawarehouse' after checking if it already 
+	exists.If the database exists, it is dropped and recreated. Additionally, the script sets up three schemas 
+	within the database. 
+	
+	They are: bronze, silver and gold.
+==================================================================================================================
 */
 
 
@@ -12,21 +16,19 @@ USE master;
 GO
 
 -- Drop and recreate the 'datawarehouse' database
-IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'datawarehouse')
+IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'Datawarehouse')
 BEGIN
-	ALTER DATABASE datawarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
-	DROP DATABASE datawarehouse
+	ALTER DATABASE Datawarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+	DROP DATABASE Datawarehouse
 END;
 GO
 
-
 -- Create the 'datawarehouse' database
-CREATE DATABASE datawarehouse;
+CREATE DATABASE Datawarehouse;
 GO
 
 USE datawarehouse;
 GO
-
 
 -- Create Schema
 CREATE SCHEMA bronze;
