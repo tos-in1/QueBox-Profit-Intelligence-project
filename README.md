@@ -39,14 +39,45 @@ The final model consists of:
 ETL scripts are in the `scripts` folder. Architecture diagrams (data flow, integration logic, star schema) are located in `documents`
 
 
-📊 Dashboard Design & Insights
+## 📊 Dashboard Design & Insights
 
 
 To bring the data to life and support data-driven decision-making, an interactive Power BI dashboard was developed using the cleaned, business-ready dataset from the data warehouse. The dashboard is structured across two pages. 
 
+<img width="858" height="683" alt="Image" src="https://github.com/user-attachments/assets/c623395d-9614-4a98-ac60-b46da53008bf" />
+
 Page 1: Shows gross sales, total profit, and profit margin (filterable by year), monthly profit trends, top-performing countries, and breakdowns by product categories.
+
 
 Page 2: A product-level view showing each product’s total sales, profit, margin, and classification as high, moderate, or low-margin.
 
+<img width="857" height="690" alt="Image" src="https://github.com/user-attachments/assets/c8f201c3-4981-4fbe-9157-67d584d33502" />
+
 
 This design empowers business stakeholders to monitor performance, identify trends, and take action—all in real time.
+
+Here’s what the dashboard reveals at a glance:
+1. 📈 High-margin vs. low-performing products, grouped by product category
+2. 📅 Monthly and Yearly Profit trends tracked over time
+3. 🌍Profit contributions by country, revealing top-performing regions
+4. 🧾 Real-time product profitability breakdown 
+5. ⚠️ Inactive products identified, those occupying space, costing QueBox but not driving value
+
+🚀 Actionable Steps for Stakeholders
+With these insights, business leaders can:
+1. 💰 Reallocate marketing budgets to focus on high-margin products
+2. 🧹 Phase out or reprice underperforming inventory to protect profit
+3. 📦 Optimize inventory decisions based on profit classification
+4. 🔍 Spot emerging profit trends early  and act before they become problems
+
+
+## 🛠️ Tools Used 
+1. SQL Server
+2. Power BI
+
+
+
+
+
+
+
