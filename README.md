@@ -78,6 +78,21 @@ With these insights, business leaders can:
 [Dashboard Interraction]([./path/to/your/folder](https://youtu.be/v_bt789aKzI?si=6SMiBxtJyD1iPQlV))
 
 
+## 📊Dashboard Interaction 
+[Click here to view Dashboard Interaction](https://youtu.be/v_bt789aKzI?si=6SMiBxtJyD1iPQlV)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
