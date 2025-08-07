@@ -75,6 +75,7 @@ With these insights, business leaders can:
 1. SQL Server
 2. Power BI
 
+[Dashboard Interraction]([./path/to/your/folder](https://youtu.be/v_bt789aKzI?si=6SMiBxtJyD1iPQlV))
 
 
 
