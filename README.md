@@ -18,7 +18,7 @@ To enable QueBox executives, particularly the Chief Revenue Officer with real-ti
 
 Data was sourced from two systems: CRM and ERP, each containing 3 CSV files. CRM data covered customers, products, and sales information WHILE ERP on the other hand provided extended info like customer demographics, sales location, and product categorization.
 
-Using SQL, a layered ETL pipeline was built, with all workflow documented in the 'scripts' folder of this repository. The process began by ingesting raw files into the Bronze layer, which stores the unprocessed data in its original form. This was then followed by the Silver layer, where key transformation steps were applied, including:
+Using SQL, a layered ETL pipeline was built, with all workflow documented in the `scripts` folder of this repository. The process began by ingesting raw files into the Bronze layer, which stores the unprocessed data in its original form. This was then followed by the Silver layer, where key transformation steps were applied, including:
 1. Standardization of gender and  country columns to ensure uniformity
 2. Validation of the arithmetic relationship between sales amount, price, and quantity sold
 3. Removal of duplicates across both primary and foreign keys using window functions
@@ -36,7 +36,7 @@ The final model consists of:
 
 3. gold.dim_customers – customer demographics
 
-ETL scripts are in the 'scripts' folder. Architecture diagrams (data flow, integration logic, star schema) are located in '/documents'
+ETL scripts are in the `scripts` folder. Architecture diagrams (data flow, integration logic, star schema) are located in `documents`
 
 
 📊 Dashboard Design & Insights
